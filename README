@@ -1,0 +1,15 @@
+
+
+	This is the useful "sock" program in W. Richard Stevens <TCP/IP v1>, I got the 
+	source code from his home page, and did something.
+
+	----vonzhou 2014-12-27
+
+1. Open a tcp server :
+	$ ./sock -s <host/ip> <service/port>
+and open a client to test it:
+	$ ./sock <host/ip> <service/port>
+2. Act as s UDP server
+ 	$ ./sock -u -s  <host/ip> <service/port>
+3. "-A" to set the SO_REUSEADDR
+
